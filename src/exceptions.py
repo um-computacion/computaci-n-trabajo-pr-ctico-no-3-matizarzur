@@ -1,5 +1,8 @@
 class NumeroDebeSerPositivo(Exception):
-    pass
+    
+    def __init__(self, mensaje="El número debe ser positivo."):
+        self.mensaje = mensaje
+        super().__init__(self.mensaje)
 
 def ingrese_numero():
     pass
