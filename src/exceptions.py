@@ -4,5 +4,3 @@ class NumeroDebeSerPositivo(Exception):
         self.mensaje = mensaje
         super().__init__(self.mensaje)
 
-def ingrese_numero():
-    pass
